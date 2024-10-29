@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>form</h1>
+    <form>
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <div>
+        <label for ="name">Name:</label>
+        <input id="name" placeholder="Type your name"/>
+        </div>
+
+        <div>
+        <label for="age">Age:</label>
+        <input type="number" id="age"/>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email"/>
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input id="password" type="password"/>
+        </div>
+
+        <div>
+            <label for="date">select a date</label>
+            <input id="date" type="date"/>
+        </div>
+
+        <div>
+            <label for="color">color</label>
+            <input id="color" type="color"/>
+        </div>
+
+        <div>
+            <label for="message">Message</label>
+            <textarea></textarea>
+        </div>
+
+        <div>
+            <label for="select">Product type</label>
+            <select id="select">
+                <option value="option1">option 1</option>
+                <option value="option2">option 2</option>
+                <option value="option3">option 3</option>
+            </select>
+        </div>
+        <div>
+            <label for="time">Time</label>
+            <input type="time">
+        </div>
+        <div>
+            <label for="status">Status</label>
+            Active<input name="status" type="radio" value="active"/>
+            Inactive<input name="status" type="radio" value="inactive"/>
+        </div>
+        <div>
+            <label for="">Pet:</label>
+            Dog<input type="checkbox">
+            Cat<input type="checkbox">
+        </div>
+
+        <button>Confirm</button>
+        <button disabled>Cancel</button>
+
+
+
+        
+
+
+
+    </fieldset>
+
+    </form>
+    
+</body>
+</html>

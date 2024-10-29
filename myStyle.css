@@ -27,6 +27,9 @@ h1{
     color: white;
     text-align: center;
 }
+.contact-h1{
+  color: black;
+}
 
 .banner-index{
   display: flex;
@@ -100,4 +103,116 @@ h1{
 }
 .H-and-P-header{
   margin-left: 55px;
+}
+
+.contact-header{
+  
+  background-color: orange;
+  height: 200px;
+  color: black;
+}
+.contact-header a{
+  color: black;
+}
+
+.bar-menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  height: 50px;
+  align-items: center;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #DEDEDE;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  margin: 0 auto;
+  gap: 20px;
+  
+  
+  
+}
+fieldset{
+  width: 70%;
+  border-radius: 10px;
+}
+legend{
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+fieldset div {
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+}
+fieldset label {
+  width: 130px;
+ 
+}
+fieldset input  {
+  width: 70%;
+  
+}
+fieldset #message {
+  width: 70%;
+}
+fieldset select {
+  width: 70%;
+}
+
+.contact-text{
+  text-align: center;
+  margin: 20px;
+
+}
+.contact-text h2{
+  margin: 15px;
+
+}
+
+.contact-text h3{
+  color: rgb(0, 0, 0);
+  text-decoration: solid;
+
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.contact-container2{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+.contact-footer{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #DEDEDE;
+  margin-top: 30px;
+  padding: 20px;
+  width: 100%;
+  
+  
+
+
+}
+
+.anchor-header-contact{
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 20px;
 }
