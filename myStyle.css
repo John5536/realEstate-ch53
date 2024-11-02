@@ -205,14 +205,126 @@ body{
   margin-top: 30px;
   padding: 20px;
   width: 100%;
-  
-  
-
-
 }
 
 .anchor-header-contact{
   margin-left: 20px;
   text-decoration: none;
   font-size: 20px;
+}
+
+/*Blog css*/
+.h1blog{
+  text-align: center;
+  color: black;
+  
+}
+
+.directory{
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  padding: 10px;
+  min-width: 200px;
+  max-width: 500px;
+  border: 2px solid brown;
+  border-radius: 10px;
+  margin-top: 70px;
+  
+ 
+  
+  
+}
+.directory-child{
+  text-decoration: none;
+  color: black;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.blog-body-container{
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  
+  
+}
+.blog-hr{
+ height: 5px;
+ background-color: brown;
+ border: none;
+}
+.paragraph-control{
+  min-width: 300px;
+  max-width: 800px;
+  margin-top: 20px;
+  
+}
+.Para-individual{
+  margin-top: 20px;
+}
+
+/*About*/
+
+.about-body-container{
+  display: flex;
+  margin-top: 30px;
+}
+
+.paragraph-control-about{
+  min-width: 300px;
+  max-width: 800px;
+  margin-top: 20px;
+}
+.About-individual{
+  margin-top: 20px;
+}
+
+.about-h1{
+  color: black;
+  margin: 15px;
+  font-size: 100px;
+}
+
+@media (max-width: 768px){
+  .cards-containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+  }
+
+}
+
+
+
+@media (max-width: 768px){
+  .more-about-us{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+
+}
+
+@media (max-width: 768px){
+  .banner-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./realEstate-img-main/header.jpg) ;
+    background-position: center top 20% ;
+    background-size: cover;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 110%;
+   
+
+  }
+
 }
